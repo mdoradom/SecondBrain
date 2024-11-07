@@ -2,8 +2,8 @@
 title: C Cheatsheet
 date: 2022-09-22
 tags:
-  - c
   - cheatsheet
+  - c
 ---
 # Hello World
 

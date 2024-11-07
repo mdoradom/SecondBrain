@@ -2,8 +2,8 @@
 title: Como funciona el Ray Tracing
 date: 2023-5-12 12:00:00 +0800
 tags:
-  - analisis
-  - videojuegos
+  - research
+  - gamedev
   - raytracing
 ---
 ## Introducción

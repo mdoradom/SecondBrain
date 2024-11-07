@@ -2,9 +2,9 @@
 title: Físicas de The Legend of Zelda - Breath of the Wild
 date: 2022-12-21 12:00:00 +0800
 tags:
-  - fisica
-  - analisis
-  - videojuegos
+  - research
+  - gamedev
+  - physics
 ---
 # Autores
 
