@@ -3,7 +3,7 @@ title: C Cheatsheet
 date: 2022-09-22
 tags:
   - cheatsheet
-  - c
+  - C
 ---
 # Hello World
 
