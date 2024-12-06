@@ -5,6 +5,7 @@ tags:
   - research
   - gamedev
   - raytracing
+draft: true
 ---
 ## Introducción
 

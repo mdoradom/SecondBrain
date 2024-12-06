@@ -5,6 +5,7 @@ tags:
   - research
   - gamedev
   - physics
+draft: true
 ---
 # Autores
 

@@ -4,6 +4,7 @@ date: 2023-5-12 12:00:00 +0800
 tags:
   - research
   - gamedev
+draft: true
 ---
 # Descripción de la consola y Contexto
 
