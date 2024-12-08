@@ -48,8 +48,7 @@ In addition to this problem, we have to have in mind that the same exact code do
 
 To analyze performance, we evaluate a simple matrix traversal code to compare execution times for **row-wise** and **column-wise** accesses. For small matrices (e.g., `8x8`), the execution times are almost identical for both traversal methods. However, as matrix size increases, the differences become significant.
 
-```c
-/* init_data - initializes the array */
+```c title="initializes the array"
 void init_data()
 {
     int i, j;
@@ -61,8 +60,7 @@ void init_data()
 }
 ```
 
-```c  
-/* Traverse matrix 'M' by rows */  
+```c title="Traverse matrix 'M' by rows"
 void matrix_rows()  
 {  
     int i, j;  
@@ -74,8 +72,7 @@ void matrix_rows()
 }
 ```
 
-```c
-/* Traverse matrix 'M' by columns */  
+```c title="Traverse matrix 'M' by columns"
 void matrix_cols()
 {
     int i, j;
@@ -89,8 +86,7 @@ void matrix_cols()
 
 In our test setup, the traversal code is executed multiple times, and the lowest time (in **microseconds**) is selected after up to 10 repetitions. To ensure accuracy, the three lowest execution times are validated to have an error margin below **1%** (**0.01**).
 
-```c
-/* Execute the call f() and measure its execution time in useconds */
+```c title="Execute the call f() and measure its execution time in useconds"
 double measure( void (*f)(void) )
 {
     return measure_full((int(*)(int,int))f, 0xDEAD, 0xDEAD, 3, 0.01, 10); // 1% error
