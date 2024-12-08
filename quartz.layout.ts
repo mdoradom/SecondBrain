@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.RecentNotes(
       { 
         title: "Recent Posts",
-        limit: 5,
+        limit: 3,
         showTags: false,
         linkToMore: "tags",
       }),
