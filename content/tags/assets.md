@@ -1,0 +1,1 @@
+This tag is used to store different sources for obtaining **assets** for game development. It includes links, repositories, and resources related to 3D models, textures, sounds, and other assets that can be useful in [[tags/gamedev]] projects.

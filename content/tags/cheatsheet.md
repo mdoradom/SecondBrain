@@ -1,0 +1,1 @@
+This tag is used for notes with a specific format that include **cheatsheets** on various topics. Currently, it mainly covers **programming languages**, but in the future, it may extend to specific programs. These notes aim to provide quick, concise references to important syntax, commands, or workflows for efficient use of the tools.

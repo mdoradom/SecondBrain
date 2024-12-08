@@ -1,0 +1,1 @@
+This tag is used to save **websites**, **tools**, or generally things that I find interesting for various workflows. These could include resources, utilities, or references that may aid in different areas of my work or personal projects.

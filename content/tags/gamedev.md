@@ -1,0 +1,1 @@
+This tag is used to store notes, resources, and insights related to **game development**. It covers various aspects of the field, including design, programming, tools, and methodologies used to create games.

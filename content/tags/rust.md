@@ -1,0 +1,1 @@
+This tag is used for notes, resources, and insights related to **Rust programming language**. It includes tutorials, code snippets, best practices, and other Rust-related content that I find useful for projects or learning purposes.
