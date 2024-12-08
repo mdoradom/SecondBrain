@@ -108,6 +108,20 @@ Matrix sizes are incremented in powers of two (**8**, **16**, **32**, ...) for b
 | `4096 x 4096` | 14514μs   | 15338μs    | 14309μs    | 14742μs    | 108086μs   | 105834μs   | 105835μs   |
 |               |           |            |            |            |            |            |            |
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#191F2C',
+      'primaryTextColor': '#3B81F6',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#EDF2F7',
+      'secondaryColor': '#EDF2F7',
+      'tertiaryColor': '#EDF2F7',
+      'background':  '#191F2C'
+    }
+  }
+}%%
 xychart-beta
     title "Matrix Traversal Times Comparison"
     x-axis ["16", "32", "64", "128", "256", "512", "1024", "2048", "4096"]
