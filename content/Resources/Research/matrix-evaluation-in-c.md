@@ -1,6 +1,6 @@
 ---
 title: Matrix Evaluation in C
-date: 2024-11-10
+date: 2024-12-08
 tags:
   - research
   - gamedev
