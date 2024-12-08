@@ -7,7 +7,7 @@ tags:
   - C
 draft: false
 ---
-Understanding how memory access patterns affect performance is crucial in systems programming, especially in languages like [[tags/C]] where manual memory management is central. This post explores how different ways of traversing a matrix—either by rows or by columns—impact execution time, especially when matrices grow in size. This exploration provides insights into cache utilization and access efficiency in #C.
+Understanding how memory access patterns affect performance is crucial in systems programming, especially in languages like [[tags/C]] where manual memory management is central. This post explores how different ways of traversing a matrix—either by rows or by columns—impact execution time, especially when matrices grow in size. This exploration provides insights into cache utilization and access efficiency in [[tags/C]].
 ## The Problem
 
 In computing, **matrix traversal** is a common operation in numerous applications, from graphics rendering to scientific computing. However, not all traversal methods yield the same performance, particularly on modern processors where **cache memory** plays a pivotal role. Cache memory, which sits between the CPU and the main memory, speeds up data access when it can predictably store and retrieve frequently accessed data. If our access pattern is unpredictable or inefficient, it may lead to frequent cache misses, slowing down the program.
@@ -27,7 +27,7 @@ Through the next test, we aim to understand:
 
 ## Performance Evaluation
 
-It's very important to know how to evaluate the performance of out codes. Know how much time out code takes. In my personal context ( #gamedev ) it is imperative since this defines the performance of our games.
+It's very important to know how to evaluate the performance of out codes. Know how much time out code takes. In my personal context ( [[tags/gamedev]] ) it is imperative since this defines the performance of our games.
 
 Measuring the time it takes to execute a piece of code is relatively simple if we define a function `captureTime` that works as a stopwatch:
 
@@ -165,6 +165,6 @@ In summary, matrix traversal patterns can significantly impact performance, espe
 
 - **Cache locality** plays a significant role in matrix traversal performance, where **row-wise traversal** benefits from better cache utilization due to sequential memory access.
 - **Smaller matrices** show little difference in access times, but as matrix sizes increase and exceed cache sizes, the differences become more pronounced.
-- **Optimization insight**: In real-world applications, such as #gamedev or scientific computing, choosing the correct traversal method based on matrix size can lead to significant performance improvements.
+- **Optimization insight**: In real-world applications, such as [[tags/gamedev]] or scientific computing, choosing the correct traversal method based on matrix size can lead to significant performance improvements.
 
 If you've made it this far, thank you for reading! I hope this analysis offers valuable insights for optimizing performance in your own projects.
