@@ -7,7 +7,7 @@ tags:
   - C
 draft: false
 ---
-Understanding how memory access patterns affect performance is crucial in systems programming, especially in languages like #C where manual memory management is central. This post explores how different ways of traversing a matrix—either by rows or by columns—impact execution time, especially when matrices grow in size. This exploration provides insights into cache utilization and access efficiency in #C.
+Understanding how memory access patterns affect performance is crucial in systems programming, especially in languages like [[tags/C]] where manual memory management is central. This post explores how different ways of traversing a matrix—either by rows or by columns—impact execution time, especially when matrices grow in size. This exploration provides insights into cache utilization and access efficiency in #C.
 ## The Problem
 
 In computing, **matrix traversal** is a common operation in numerous applications, from graphics rendering to scientific computing. However, not all traversal methods yield the same performance, particularly on modern processors where **cache memory** plays a pivotal role. Cache memory, which sits between the CPU and the main memory, speeds up data access when it can predictably store and retrieve frequently accessed data. If our access pattern is unpredictable or inefficient, it may lead to frequent cache misses, slowing down the program.
