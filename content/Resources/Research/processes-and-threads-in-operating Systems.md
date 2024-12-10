@@ -7,7 +7,6 @@ tags:
   - processes
 draft: true
 ---
-
 Understanding how processes and threads function is central to effective operating system design and programming. This post provides an overview of process management, threading, and examples using **SDL threads**, offering insights into key concepts and implementation details.
 
 ## What are Processes?
