@@ -5,8 +5,7 @@ tags:
   - research
   - gamedev
   - C
-  - Memory Management
-  - Performance
+  - performance
 draft: false
 ---
 Understanding how memory access patterns affect performance is crucial in systems programming, especially in languages like [[tags/C]] where manual memory management is central. This post explores how different ways of traversing a matrix—either by rows or by columns—impact execution time, especially when matrices grow in size. This exploration provides insights into cache utilization and access efficiency in [[tags/C]].
