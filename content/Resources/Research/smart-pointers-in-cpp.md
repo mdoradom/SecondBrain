@@ -21,8 +21,35 @@ In this post, we’ll explore **smart pointers**—a modern C++ feature that aut
 
 ## What Are Smart Pointers?
 Smart pointers are wrapper classes that manage dynamic memory through RAII (Resource Acquisition Is Initialization). They automatically deallocate memory when objects go out of scope, preventing leaks.
+
+```cpp
+void RawPointer()
+{
+    // Using raw pointer - not recommended
+    Companion* astarion = new Companion(L"Astarion", L"Vampiric Bite");
+    
+    // Use companion abilities
+    astarion->UseSpecialAbility();
+    astarion->TakeDamage(35);
+    
+    // Easy to forget in complex game logic
+    delete astarion;
+}
+
+void SmartPointer()
+{
+    // Declare a smart pointer on stack and pass it the raw pointer.
+    unique_ptr<Companion> shadowheart(new Companion(L"Shadowheart", L"Guiding Bolt"));
+    
+    // Use companion abilities
+    shadowheart->CastSpell(L"Bless");
+    shadowheart->TakeDamage(35);
+    //...
+
+} // Shadowheart is automatically deleted here
+```
 ## Types of Smart Pointers
-There are 3 types of smart pointers, depending on the case bla bla bla... complete herer
+There are 3 types of smart pointers, depending on the case bla bla bla... complete here
 1. **`unique_ptr`**  
    - Exclusive ownership. Cannot be copied.  
    - Use `std::move` to transfer ownership.  
